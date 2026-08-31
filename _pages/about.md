@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 
 
@@ -18,7 +18,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 20
 
 latest_posts:
   enabled: false
@@ -39,3 +39,16 @@ Before my PhD, I graduated from
 [Université Paris-Saclay](https://www.universite-paris-saclay.fr/),
 with a master's degree in Mathematics and Data Science. I also hold a
 Magistère in Pure Mathematics from Université Paris-Saclay.
+
+<style>
+  .news {
+    padding: 14px 18px;
+    border: 1px solid rgba(128, 128, 128, 0.55);
+    border-radius: 8px;
+  }
+
+  .news .table-responsive {
+    max-height: 280px;
+    overflow-y: auto;
+  }
+</style>

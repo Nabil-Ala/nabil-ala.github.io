@@ -41,14 +41,58 @@ with a master's degree in Mathematics and Data Science. I also hold a
 Magistère in Pure Mathematics from Université Paris-Saclay.
 
 <style>
+  /* Center the section titles and add space around them */
+  .post h2 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  /* News rectangle */
   .news {
-    padding: 14px 18px;
+    margin-bottom: 4.5rem;
+    padding: 1.5rem 2rem;
     border: 1px solid rgba(128, 128, 128, 0.55);
     border-radius: 8px;
   }
 
+  /* Scrollable news area */
   .news .table-responsive {
-    max-height: 280px;
+    max-height: 300px;
     overflow-y: auto;
+  }
+
+  /* More spacing between news items */
+  .news table td {
+    padding-top: 1.1rem !important;
+    padding-bottom: 1.1rem !important;
+  }
+
+  /* More spacing between publications */
+  ol.bibliography li {
+    margin-bottom: 3rem;
+  }
+
+  /* More comfortable paragraph spacing */
+  .post article p {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+  }
+
+  /* Adjust spacing on mobile devices */
+  @media (max-width: 576px) {
+    .post h2 {
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .news {
+      margin-bottom: 3.5rem;
+      padding: 1rem;
+    }
+
+    ol.bibliography li {
+      margin-bottom: 2.25rem;
+    }
   }
 </style>

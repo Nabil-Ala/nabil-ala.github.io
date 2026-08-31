@@ -3,9 +3,6 @@ layout: about
 title: about
 permalink: /
 
-subtitle: >
-  PhD Student in Statistics &amp; Data Science at
-  <a href="https://mbzuai.ac.ae/" target="_blank" rel="noopener noreferrer">MBZUAI</a>
 
 profile:
   align: left

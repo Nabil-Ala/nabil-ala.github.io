@@ -29,6 +29,16 @@ latest_posts:
   limit: 0
 ---
 
-Hello, I am Nabil Alami, a first year PhD student at MBZUAI under the supervision of Prof. [Souhaib Ben Taieb][https://souhaib-bentaieb.com/]. I like statistics and maths..
+Hello, I am Nabil Alami, a first-year PhD student at
+[MBZUAI](https://mbzuai.ac.ae/) in Abu Dhabi, under the supervision of
+Professor [Souhaib Ben Taieb](https://souhaib-bentaieb.com/).
 
-My research focuses on the theory and applications of uncertainty quantification, especially conformal prediction. More generally, I work at the intersection of Mathematics, Machine Learning and Statistics.
+My research focuses on the theory and applications of uncertainty
+quantification, especially **conformal prediction**. More generally, I work
+at the intersection of mathematics, machine learning, and statistics.
+
+Before my PhD, I graduated from
+[CentraleSupélec](https://www.centralesupelec.fr/),
+[Université Paris-Saclay](https://www.universite-paris-saclay.fr/),
+with a master's degree in Mathematics and Data Science. I also hold a
+Magistère in Pure Mathematics from Université Paris-Saclay.

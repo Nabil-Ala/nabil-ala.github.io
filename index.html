@@ -5,15 +5,59 @@
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://nabil-ala.github.io/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">About <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title"> Nabil Alami </h1> <p class="desc"></p> </header> <article> <div class="profile float-left"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px) 30vw, 95vw"> <img src="/assets/img/prof_pic.jpg?v=a5f3b85129b7410c06efa4e3698e870d" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </source></picture> </figure> <div class="more-info"> <p>From Paris, France</p> <p>to Abu Dhabi, UAE</p> </div> </div> <div class="clearfix"> <p>Hello, I am Nabil Alami, a first-year PhD student at <a href="https://mbzuai.ac.ae/" rel="external nofollow noopener" target="_blank">MBZUAI</a> in Abu Dhabi, under the supervision of Professor <a href="https://souhaib-bentaieb.com/" rel="external nofollow noopener" target="_blank">Souhaib Ben Taieb</a>.</p> <p>My research focuses on the theory and applications of uncertainty quantification, especially <strong>conformal prediction</strong>. More generally, I work at the intersection of mathematics, machine learning, and statistics.</p> <p>Before my PhD, I graduated from <a href="https://www.centralesupelec.fr/" rel="external nofollow noopener" target="_blank">CentraleSupélec</a>, <a href="https://www.universite-paris-saclay.fr/" rel="external nofollow noopener" target="_blank">Université Paris-Saclay</a>, with a master’s degree in Mathematics and Data Science. I also hold a Magistère in Pure Mathematics from Université Paris-Saclay.</p> <style>
+  /* Center the section titles and add space around them */
+  .post h2 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  /* News rectangle */
   .news {
-    padding: 14px 18px;
+    margin-bottom: 4.5rem;
+    padding: 1.5rem 2rem;
     border: 1px solid rgba(128, 128, 128, 0.55);
     border-radius: 8px;
   }
 
+  /* Scrollable news area */
   .news .table-responsive {
-    max-height: 280px;
+    max-height: 300px;
     overflow-y: auto;
+  }
+
+  /* More spacing between news items */
+  .news table td {
+    padding-top: 1.1rem !important;
+    padding-bottom: 1.1rem !important;
+  }
+
+  /* More spacing between publications */
+  ol.bibliography li {
+    margin-bottom: 3rem;
+  }
+
+  /* More comfortable paragraph spacing */
+  .post article p {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+  }
+
+  /* Adjust spacing on mobile devices */
+  @media (max-width: 576px) {
+    .post h2 {
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .news {
+      margin-bottom: 3.5rem;
+      padding: 1rem;
+    }
+
+    ol.bibliography li {
+      margin-bottom: 2.25rem;
+    }
   }
 </style> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Jul 06, 2026</th> <td> Happy to announce that our work integrating e-values in conformal prediction has been accepted at ICML 2026! </td> </tr> <tr> <th scope="row" style="width: 20%">May 05, 2026</th> <td> I will be in tangier, morocco, to present our workshop paper the <a href="https://calibration-workshop.github.io/" rel="external nofollow noopener" target="_blank">Calibration for Modern AI</a> at AISTATS 2026. </td> </tr> <tr> <th scope="row" style="width: 20%">Jan 20, 2026</th> <td> Our work on conformal aggregation got accepted at AAAI 2026! </td> </tr> </table> </div> </div> <h2> <a href="/publications/" style="color: inherit">selected publications</a> </h2> <div class="publications"> <ol class="bibliography"> <li> <div class="row"> <div class="col col-sm-2 abbr"> <figure> <picture> <img src="/assets/img/publication_preview/icml_p2e.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="icml_p2e.jpg" data-zoomable loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div id="alami2026set" class="col-sm-8"> <div class="title">Set-Preserving Calibration from Conformal P-Values to E-Values</div> <div class="author"> Nabil Alami, Jad Zakharia, and Souhaib Ben Taieb </div> <div class="periodical"> <em>In International Conference on Machine Learning</em>, 2026 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2606.03600" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://arxiv.org/pdf/2606.03600" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> <a href="https://github.com/Nabil-Ala/P2E_calibration" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">alami2026set</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Set-Preserving Calibration from Conformal {P}-Values to {E}-Values}</span><span class="p">,</span>

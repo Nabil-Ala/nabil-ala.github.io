@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our new paper, [Generalized Hyperrectangular Prediction Sets in Multivariate Conformal Prediction](https://arxiv.org/abs/2611.05543), is now available on arXiv! 
+Our paper studying rectangularization of multivariate nonconformity scores, [Generalized Hyperrectangular Prediction Sets in Multivariate Conformal Prediction](https://arxiv.org/abs/2611.05543), is now available on arXiv! 
   

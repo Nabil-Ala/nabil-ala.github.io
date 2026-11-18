@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on conformal aggregation got accepted at AAAI 2026! 
+Our work on conformal aggregation got accepted at AAAI 2026 as an oral presentation! 
